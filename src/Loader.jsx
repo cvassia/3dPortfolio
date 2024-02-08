@@ -1,3 +1,4 @@
+import React from "react"
 import EastIcon from "@mui/icons-material/East";
 
 export const Loader = ({ started, onStarted, progress }) => {
