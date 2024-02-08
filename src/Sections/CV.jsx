@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "@emotion/styled/macro";
+import styled from "styled-components";
 import { Box } from "@mui/material";
 import Grid from "@mui/material/Grid";
 

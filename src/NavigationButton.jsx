@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
-import styled from "@emotion/styled/macro";
+import styled from "styled-components";
 import { Box } from "@mui/material";
 
 const NavigationButtonWrapper = styled(Box)`

@@ -8,7 +8,7 @@ import { ContactForm } from "./Sections/Contact";
 
 import { Box } from "@mui/material";
 import ClearOutlinedIcon from "@mui/icons-material/ClearOutlined";
-import styled from "@emotion/styled/macro";
+import styled from "styled-components";
 
 
 

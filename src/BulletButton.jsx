@@ -1,7 +1,7 @@
 import React from "react";
 import DrawerModal from "./Drawer";
 import Stack from "@mui/material/Stack";
-import styled from "@emotion/styled/macro";
+import styled from "styled-components";
 
 const ButtonWrapper = styled(Stack)`
   position: absolute;

@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -25,7 +23,7 @@
     "react-scripts": "5.0.1",
     "react-special-cursor": "^1.2.1",
     "react-three-fiber": "^6.0.13",
-    "styled-components": "^6.0.8",
+    "styled-components": "^6.1.8",
     "three": "^0.143.0"
   },
   "scripts": {
@@ -53,6 +51,5 @@
     ]
   },
   "devDependencies": {
-    "@emotion/babel-plugin": "^11.11.0"
   }
 }
