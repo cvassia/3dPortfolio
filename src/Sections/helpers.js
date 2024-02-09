@@ -1,7 +1,7 @@
 export const projectItems = [
   {
     url: "https://pulsespot.vercel.app/",
-    image: "assets/images/pulsespot.jpg",
+    image: "assets/images/pulseSpot.jpg",
     header: "PulseSpot",
     year: "2023  App in progress...",
     description: "An app presenting all the current events of towns in Greece.",
@@ -20,7 +20,7 @@ export const projectItems = [
   },
   {
     url: "https://art4kids.gr/",
-    image: "assets/images/manitou.GIF",
+    image: "assets/images/manitou.jpg",
     header: "ART4Kids",
     year: 2021,
     description: "Portfolio website of a creative musician from Greece,",
@@ -30,7 +30,7 @@ export const projectItems = [
   },
   {
     url: "https://www.hrlab.de/en",
-    image: "assets/images/hrlab.GIF",
+    image: "assets/images/hrlab.jpg",
     header: "HRlab",
     year: "2020 - now",
     description:
