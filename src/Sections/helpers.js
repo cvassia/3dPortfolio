@@ -1,6 +1,6 @@
 export const projectItems = [
   {
-    url: "https://pulsespot.vercel.app/",
+    url: "https://pulsespot.cvassia.com/",
     image: "assets/images/pulseSpot.jpg",
     header: "PulseSpot",
     year: "2023  App in progress...",
@@ -10,7 +10,7 @@ export const projectItems = [
     stacks: ["Remix", "Node", "Prisma", "Typescript"],
   },
   {
-    url: "https://notes-kappa-gilt.vercel.app/",
+    url: "https://notes.cvassia.com/",
     image: "assets/images/notesApp.png",
     header: "Notes App",
     year: "2023",
@@ -50,7 +50,7 @@ export const projectItems = [
     stacks: ["Javascript", "Wordpress"],
   },
   {
-    url: "https://weather-app-psi-rust.vercel.app/",
+    url: "https://weather.cvassia.com/",
     image: "assets/images/weather.png",
     header: "Weather app",
     year: "2019",
