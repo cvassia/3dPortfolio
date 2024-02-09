@@ -13,14 +13,14 @@ const GridWrapper = styled(Box)`
   margin: 80px;
   margin-top: 140px;
   font-family: roboto;
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     margin: 26px;
     margin-top: 85px;
   }
 `;
 
 const Container = styled(Grid)`
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
   
     margin-bottom: 20px;
   }
@@ -30,7 +30,7 @@ const Header = styled.p`
   font-size: 40px;
   margin: 0;
   font-family: Crops;
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 28px;
   }
 `;
@@ -72,7 +72,7 @@ const StackButton = styled.div`
   font-size: 15px;
   margin-bottom: 10px;
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 13px;
     margin-bottom: 15px;
   }
@@ -85,6 +85,12 @@ const CardText = styled(Card)`
 
 const CardWrapper = styled(Card)`
   border-radius: 30px;
+  @media only screen and (max-width: 375px) and (min-width: 280px) {
+    border-radius: 16px;
+    height: 207px;
+    width: 226px;
+    margin-left: -10px;
+  }
 
   @media only screen and (max-width: 1024px) and (min-width: 375px) {
     border-radius: 16px;
@@ -96,7 +102,7 @@ const CardWrapper = styled(Card)`
 
 const CardImg = styled(CardMedia)`
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     height: 211px;
   }
 `;

@@ -27,7 +27,7 @@ const Text = styled(Box)`
   backface-visibility: hidden;
   transform: rotate(-90deg);
   transition: transform 0.5s ease-in-out;
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 250px) {
     display: none;
   }
 `;
@@ -82,11 +82,11 @@ const DrawerModal = ({
             width: isLocatedInContact ? "80%" : "90%",
             overflowY: isLocatedInContact ? "visible" : "auto",
             // eslint-disable-next-line no-useless-computed-key
-            ["@media (max-height:768px)"]: {
-              width: "90%",
-            },
+            // ["@media (max-height:768px)"]: {
+            //   width: "90%",
+            // },
             // eslint-disable-next-line no-useless-computed-key
-            ["@media (max-height:580px)"]: {
+            ["@media (min-width:280px)and (max-height: 690px)"]: {
               overflowY: "auto",
             },
           },

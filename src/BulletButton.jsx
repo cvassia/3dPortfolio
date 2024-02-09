@@ -13,36 +13,24 @@ const ButtonWrapper = styled(Stack)`
       ? "250px"
       : "212px"};
   left: ${(props) => (props.isLocatedInProjects ? "75%" : "300px")};
- 
-@media only screen and (min-height:400px)  {
-   top: ${(props) =>
-     props.isLocatedInProjects
-       ? "166px"
-       : props.isLocatedInContact
-       ? "103px"
-       : "116px"};
-    left: 41px;
 
-}
-  @media only screen and (max-width: 812px) and (min-width: 375px) {
+  @media only screen and (max-width: 1293px) and (min-width: 200px) {
     top: ${(props) =>
       props.isLocatedInProjects
-        ? "166px"
+        ? "56px"
         : props.isLocatedInContact
         ? "103px"
-        : "383px;"};
-    left: 41px;
+        : "265px"};
+    left: ${(props) => (props.isLocatedInProjects ? "60px" : "40px")};
+  }
 `;
 
 const Header = styled(Stack)`
- color: #6c91b6;
- @media only screen and (max-width: 700px) and (min-width: 375px) {
-    color: ${(props) =>
-      props.isLocatedInAbout
-        ? "#003766"
-        :  "#015ba8"
-        };
-   `;
+  color: #6c91b6;
+  @media only screen and (max-width: 700px) and (min-width: 200px) {
+    color: ${(props) => (props.isLocatedInAbout ? "#003766" : "#9bd2e8")};
+  }
+`;
 
    
 const BulletButton = ({
@@ -54,6 +42,8 @@ const BulletButton = ({
   state,
   setState,
 }) => {
+
+  console.log(isLocatedInContact);
   return (
     <>
       <ButtonWrapper

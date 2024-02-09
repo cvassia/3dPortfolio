@@ -1226,28 +1226,39 @@ form {
 
 }
 
-@media (min-height:700px)  and (max-height: 1024px) 
+@media (min-width:280px)  and (max-width: 480px) 
  {
   .loadingScreen__description {
-  font-size: 26px;
+  font-size: 16px;
  
 }
 
 .loadingScreen__text {
-  font-size: 24px;
-  margin: 13px 125px;
+  font-size: 13px;
+  margin: 13px 22px;
 }
 
 
 
 .loadingScreen__progress {
-  top: 100px;
+   top: 63px;
+
  
 }
 
+.loadingScreen__button {
+  padding: 16px 23px;
+  font-size: 19px;
+}
+
+.object__intro-title {
+  font-size: 26px;
+
+}
+
 .keepInTouch {
-  margin-top: 0px;
-  font-size: 13px;
+  margin-top: 37px;
+  font-size: 9px;
 
 }
 
@@ -1284,7 +1295,7 @@ form {
 
 
 @media only screen 
-  and (min-width: 375px) 
+  and (min-width: 481px) 
   and (max-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 

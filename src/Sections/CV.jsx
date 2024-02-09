@@ -9,10 +9,9 @@ const GridWrapper = styled(Box)`
   margin-top: 140px;
   font-family: roboto;
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     margin: 31px;
     margin-top: 37px;
-    // text-align: right;
   }
 `;
 
@@ -21,7 +20,7 @@ const Header = styled.p`
   margin-bottom: 5px;
   font-size: 28px;
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 23px;
     margin-top: 0;
     text-align: left;
@@ -43,7 +42,7 @@ const Description = styled.p`
   width: 90%;
   margin-top: ${(props) => props.projectApproach && "140px"};
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 17px;
     margin-top: ${(props) => (props.isFirst ? "29px" : "-59px")};
   }
@@ -56,7 +55,7 @@ const Paragraph = styled.p`
   text-align: justify;
   width: 90%;
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     margin-bottom: 0px;
     font-size: 15px;
   }
@@ -70,7 +69,7 @@ const Title = styled.p`
   font-size: 28px;
   color: ${highlightColor};
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 24px;
     margin-top: ${(props) => (props.isEducation ? "47px" : props.isSkills? "-52px": props.isFreelance ? "25px": props.isSoftSkills? "-43px" : "-38px")};
   }
@@ -85,7 +84,7 @@ const JobTitle = styled.p`
   text-align: justify;
   
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 18px;
     margin-top: 42px;
   }
@@ -99,7 +98,7 @@ const JobDescription = styled.p`
   text-align: justify;
   width: 90%;
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     margin-bottom: 0;
     font-size: 15px;
     margin-top: 0
@@ -114,7 +113,7 @@ const SkillsDescription = styled.p`
   text-align: justify;
   width: 90%;
 
-  @media only screen and (max-width: 1024px) and (min-width: 375px) {
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
     margin-bottom: 0px;
     font-size: 17px;
   }
