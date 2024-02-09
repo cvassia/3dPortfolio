@@ -1,7 +1,7 @@
 export const projectItems = [
   {
     url: "https://pulsespot.vercel.app/",
-    image: "assets/images/pulsespot.png",
+    image: "assets/images/pulsespot.jpg",
     header: "PulseSpot",
     year: "2023  App in progress...",
     description: "An app presenting all the current events of towns in Greece.",
