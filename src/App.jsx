@@ -27,6 +27,7 @@ import BulletButton from "./BulletButton";
 import { Loader } from "./Loader";
 import DrawerModal from "./Drawer";
 
+
 function App() {
   // const cameraControlsRef = React.useRef(null);
   const [aboutClick, setAboutClick] = React.useState(false);
@@ -47,6 +48,7 @@ function App() {
 
   const [start, setStart] = useState(false);
   const { progress } = useProgress();
+
 
   return (
     <>

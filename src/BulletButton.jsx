@@ -43,7 +43,6 @@ const BulletButton = ({
   setState,
 }) => {
 
-  console.log(isLocatedInContact);
   return (
     <>
       <ButtonWrapper

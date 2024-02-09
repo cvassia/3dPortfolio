@@ -28,6 +28,8 @@ import {
   useHelper,
   Center,
 } from "@react-three/drei";
+import { Helmet } from "react-helmet";
+
 
 export const Experience = ({
   aboutClick,
@@ -146,6 +148,17 @@ export const Experience = ({
   return (
     <>
       <Model />
+      <Helmet>
+        {aboutClick ? (
+          <title>Portfolio - About Me</title>
+        ) : projectsClick ? (
+          <title>Portfolio - My Projects</title>
+        ) : contactClick ? (
+          <title>Portfolio - Contact Me</title>
+        ) : (
+          backToBeginningClick && <title>Portfolio - Welcome</title>
+        )}
+      </Helmet>
 
       {/* <pointLight
         ref={pointLightRef}

@@ -82,7 +82,7 @@ export const ContactForm = () => {
           </a>
         </div>
 
-        <div>
+        <div style={{ width: "100%" }}>
           <input
             type="text"
             name="name"
@@ -102,7 +102,7 @@ export const ContactForm = () => {
           {errors.name && (
             <span className="errorMessage">{errors.name.message}</span>
           )}
-          <div>
+          <div style={{ width: "100%" }}>
             <input
               type="email"
               name="email"
@@ -122,7 +122,7 @@ export const ContactForm = () => {
           </div>
         </div>
 
-        <div>
+        <div style={{ width: "100%" }}>
           <input
             type="text"
             name="subject"
@@ -144,7 +144,7 @@ export const ContactForm = () => {
           )}
         </div>
 
-        <div>
+        <div style={{ width: "100%" }}>
           <textarea
             rows={6}
             name="message"
