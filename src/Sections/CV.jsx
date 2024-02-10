@@ -45,6 +45,7 @@ const Description = styled.p`
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 17px;
     margin-top: ${(props) => (props.isFirst ? "29px" : "-59px")};
+    text-align: left;
   }
 `;
 const Paragraph = styled.p`
@@ -58,6 +59,7 @@ const Paragraph = styled.p`
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     margin-bottom: 0px;
     font-size: 15px;
+    text-align: left;
   }
 `;
 
@@ -71,7 +73,17 @@ const Title = styled.p`
 
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 24px;
-    margin-top: ${(props) => (props.isEducation ? "47px" : props.isSkills? "-52px": props.isFreelance ? "25px": props.isSoftSkills? "-43px" : "-38px")};
+    margin-top: ${(props) =>
+      props.isEducation
+        ? "47px"
+        : props.isSkills
+        ? "-52px"
+        : props.isFreelance
+        ? "25px"
+        : props.isSoftSkills
+        ? "-43px"
+        : "-38px"};
+    text-align: left;
   }
 `;
 
@@ -82,11 +94,11 @@ const JobTitle = styled.p`
   color: ${highlightColor};
   line-height: 30px;
   text-align: justify;
-  
 
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 18px;
     margin-top: 42px;
+    text-align: left;
   }
 `;
 
@@ -101,7 +113,9 @@ const JobDescription = styled.p`
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     margin-bottom: 0;
     font-size: 15px;
-    margin-top: 0
+    margin-top: 0;
+    text-align: left;
+
   }
 `;
 
@@ -116,6 +130,7 @@ const SkillsDescription = styled.p`
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     margin-bottom: 0px;
     font-size: 17px;
+    text-align: left;
   }
 `;
 
