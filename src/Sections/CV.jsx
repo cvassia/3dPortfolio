@@ -283,11 +283,10 @@ export const Cv = () => (
             <strong style={differentColor}> custom pages and interfaces</strong>
             , contributing to a tailored user experience for each client.
           </JobDescription>
-          </Box>
+        </Box>
       </Grid>
       <Grid item sm={12} md={12} lg={6}>
-                <Box>
-
+        <Box>
           <Title isFreelance>Freelance Projects</Title>
           <JobDescription>
             • Successfully delivering custom websites for various clients,
@@ -324,8 +323,8 @@ export const Cv = () => (
           <SkillsDescription>
             Proficient in{" "}
             <strong style={differentColor}>
-              React • JavaScript (ES6+) • TypeScript • Remix • NodeJS • Vite •
-              MongoDB • HTML5 • CSS • Sass • Tailwind • Storybook
+              React • JavaScript (ES6+) • TypeScript • Remix • NodeJS • AWS •
+              Vite • MongoDB • HTML5 • CSS • Sass • Less •Tailwind • Storybook
             </strong>
             .
           </SkillsDescription>
@@ -335,6 +334,12 @@ export const Cv = () => (
               Redux • React Router • and other related libraries
             </strong>
             .
+          </SkillsDescription>
+          <SkillsDescription>
+            engineering and architecture experience on
+            <strong style={differentColor}>
+              APIs (REST, GraphQL) • Microservices
+            </strong>.
           </SkillsDescription>
           <SkillsDescription>
             Familiarity with build tools like{" "}
