@@ -14,20 +14,20 @@ const ButtonWrapper = styled(Stack)`
       : "212px"};
   left: ${(props) => (props.isLocatedInProjects ? "75%" : "300px")};
 
-  @media only screen and (max-width: 1293px) and (min-width: 200px) {
+  @media only screen and (max-width: 900px) and (min-width: 200px) {
     top: ${(props) =>
       props.isLocatedInProjects
         ? "56px"
         : props.isLocatedInContact
         ? "103px"
-        : "265px"};
+        : "119px"};
     left: ${(props) => (props.isLocatedInProjects ? "60px" : "40px")};
   }
 `;
 
 const Header = styled(Stack)`
   color: #6c91b6;
-  @media only screen and (max-width: 700px) and (min-width: 200px) {
+  @media only screen and (max-width: 300px) and (min-width: 200px) {
     color: ${(props) => (props.isLocatedInAbout ? "#003766" : "#9bd2e8")};
   }
 `;

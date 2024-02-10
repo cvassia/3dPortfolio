@@ -33,7 +33,7 @@ const NavigationButtonWrapper = styled(Box)`
         ? "55%"
         : props.isLocatedInContact
         ? "50%"
-        : "79%"};
+        : "74%"};
   }
 `;
 
