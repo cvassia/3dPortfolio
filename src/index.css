@@ -1102,7 +1102,7 @@ form {
 .loadingScreen__text {
   font-size: 2rem;
   color: #3d3b9a;
-  margin: 0 200px;
+  margin: 0 140px;
   margin-bottom: 15px;
   text-align: left;
 }
@@ -1183,13 +1183,13 @@ form {
  {
 
   .loadingScreen__description {
-  font-size: 24px;
+  font-size: 20px;
  
 }
 
-  .loadingScreen__text {
-  font-size: 21px;
-  margin: 0 171px;
+.loadingScreen__text {
+  font-size: 15px;
+  margin: 4px 98px;
 }
 
 
@@ -1231,6 +1231,29 @@ form {
 
 
 }
+@media (min-width:280px)  and (max-width: 900px) 
+ {.object {
+width: 30px;
+height: 99px;
+}
+
+.object__img {
+  width: 100px;
+  height: 100px;
+ 
+}
+
+.wave {
+  width: 138px;
+  height: 138px;
+  bottom: 129px;
+  right: 13px;
+}
+
+.object__intro-title {
+  font-size: 24px;
+
+}}
 
 @media (min-width:280px)  and (max-width: 480px) 
  {
@@ -1257,10 +1280,9 @@ form {
   font-size: 19px;
 }
 
-.object__intro-title {
-  font-size: 26px;
 
-}
+
+
 
 .keepInTouch {
   margin-top: 37px;
@@ -1319,10 +1341,12 @@ form {
 
 .loadingScreen__progress {
   position: relative;
-  top: 78px;
+  top: 15px;
   left: 0;
  
 }
+
+
 
 .keepInTouch {
     margin-top: 86px;

@@ -14,7 +14,7 @@ const ButtonWrapper = styled(Stack)`
       : "212px"};
   left: ${(props) => (props.isLocatedInProjects ? "75%" : "300px")};
 
-  @media only screen and (max-width: 900px) and (min-width: 200px) {
+  @media only screen and (max-width: 1024px) and (min-width: 200px) {
     top: ${(props) =>
       props.isLocatedInProjects
         ? "56px"

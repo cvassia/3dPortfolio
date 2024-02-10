@@ -54,6 +54,23 @@ const ExitButton = styled(ClearOutlinedIcon)`
   }
 `;
 
+const ExitButtonBottom = styled(ClearOutlinedIcon)`
+  position: relative;
+  bottom: 19px;
+  left: 646px;
+  font-size: 13px;
+  border: 1px solid #51779e;
+  border-radius: 50%;
+  padding: 24px;
+  transition: transform 0.5s ease-in-out;
+
+  &:hover {
+    transform: rotate(-134deg);
+    font-size: 20px;
+    transition: transform 0.5s ease-in-out;
+  }
+`;
+
 const DrawerModal = ({
   state,
   setState,
@@ -94,7 +111,6 @@ const DrawerModal = ({
       },
     },
   });
-
 
 
   return (
@@ -138,6 +154,27 @@ const DrawerModal = ({
           : isLocatedInProjects
           ? Projects(setState)
           : isLocatedInContact && ContactForm(setState)}
+        {(isLocatedInAbout || isLocatedInProjects) && (
+           <Box
+          onClick={() => {
+            setState({ right: false });
+            openAboutDrawer && setOpenAboutDrawer(false);
+            openProjectsDrawer && setOpenProjectsDrawer(false);
+            openContactDrawer && setOpenContactDrawer(false);
+          }}
+          onKeyDown={() => {
+            setState({ right: false });
+            openAboutDrawer && setOpenAboutDrawer(false);
+            openProjectsDrawer && setOpenProjectsDrawer(false);
+            openContactDrawer && setOpenContactDrawer(false);
+          }}
+        >
+          <Box m={20}>
+            <ExitButtonBottom />
+          </Box>
+        </Box>
+
+        )}
       </Drawer>
     </MuiThemeProvider>
   );
