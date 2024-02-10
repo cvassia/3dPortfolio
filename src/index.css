@@ -1183,19 +1183,21 @@ form {
  {
 
   .loadingScreen__description {
-  font-size: 20px;
+  font-size: 18px;
+    margin-bottom: 22px;
+
  
 }
 
 .loadingScreen__text {
-  font-size: 15px;
+  font-size: 13px;
   margin: 4px 98px;
 }
 
 
 
 .loadingScreen__progress {
-  top: 34px;
+  top: 10px;
  
 }
 
