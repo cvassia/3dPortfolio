@@ -55,9 +55,9 @@ const ExitButton = styled(ClearOutlinedIcon)`
 `;
 
 const ExitButtonBottom = styled(ClearOutlinedIcon)`
-  position: relative;
-  bottom: 19px;
-  left: 646px;
+  // position: relative;
+  // bottom: 19px;
+  // left: 144px;
   font-size: 13px;
   border: 1px solid #51779e;
   border-radius: 50%;
@@ -155,7 +155,10 @@ const DrawerModal = ({
           ? Projects(setState)
           : isLocatedInContact && ContactForm(setState)}
         {(isLocatedInAbout || isLocatedInProjects) && (
-           <Box
+          <Box
+            style={{display: "flex",  justifyContent: "right",
+  marginBottom: "20px",
+  marginRight: "20px"}}
           onClick={() => {
             setState({ right: false });
             openAboutDrawer && setOpenAboutDrawer(false);
@@ -169,10 +172,8 @@ const DrawerModal = ({
             openContactDrawer && setOpenContactDrawer(false);
           }}
         >
-          <Box m={20}>
             <ExitButtonBottom />
           </Box>
-        </Box>
 
         )}
       </Drawer>

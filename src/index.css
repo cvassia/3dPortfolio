@@ -1231,7 +1231,7 @@ form {
 
 
 }
-@media (min-width:280px)  and (max-width: 900px) 
+@media (min-width:200px)  and (max-width: 900px) 
  {.object {
 width: 30px;
 height: 99px;
