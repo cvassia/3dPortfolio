@@ -331,7 +331,8 @@ export const Cv = () => (
           <SkillsDescription>
             Strong knowledge of{" "}
             <strong style={differentColor}>
-              Redux • React Router • and other related libraries
+              Redux • React Router • MaterialUi • styledComponents and other
+              related libraries
             </strong>
             .
           </SkillsDescription>
@@ -339,15 +340,8 @@ export const Cv = () => (
             engineering and architecture experience on
             <strong style={differentColor}>
               APIs (REST, GraphQL) • Microservices
-            </strong>.
-          </SkillsDescription>
-          <SkillsDescription>
-            Familiarity with build tools like{" "}
-            <strong style={differentColor}>Webpack • Babel • NPM/Yarn</strong>.
-          </SkillsDescription>
-          <SkillsDescription>
-            Git version control and collaborative tools{" "}
-            <strong style={differentColor}>GitHub • Bitbucket</strong>.
+            </strong>
+            .
           </SkillsDescription>
           <SkillsDescription>
             Ability to create a strategy/vision for a product • convey that
@@ -379,11 +373,19 @@ export const Cv = () => (
             {" "}
             <strong style={differentColor}>WordPress</strong>{" "}
           </SkillsDescription>
+          <SkillsDescription>
+            Familiarity with build tools like{" "}
+            <strong style={differentColor}>Webpack • Babel • NPM/Yarn</strong>.
+          </SkillsDescription>
+          <SkillsDescription>
+            Git version control and collaborative tools{" "}
+            <strong style={differentColor}>GitHub • Bitbucket</strong>.
+          </SkillsDescription>
         </Box>
       </Grid>
       <Grid item sm={12} md={12} lg={6} style={{ marginBottom: "25px" }}>
         <Box>
-          <Title isSoftSkills>Shoft Skills </Title>
+          <Title isSoftSkills>Soft Skills </Title>
           <JobDescription>
             <strong style={differentColor}>Adaptability: </strong> Quick to
             embrace emerging technologies and methodologies, consistently
