@@ -7,7 +7,7 @@ const GridWrapper = styled(Box)`
   color: #8296bc;
   margin: 80px;
   margin-top: 140px;
-  font-family: roboto;
+    font-family: Roboto, sans-serif !important;
 
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     margin: 31px;
@@ -19,7 +19,7 @@ const Header = styled.p`
   letter-spacing: 2;
   margin-bottom: 5px;
   font-size: 28px;
-  font-family: roboto;
+    font-family: Roboto, sans-serif !important;
 
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 23px;
@@ -50,7 +50,7 @@ const Description = styled.p`
   }
 `;
 const Paragraph = styled.p`
-  font-family: roboto;
+    font-family: Roboto, sans-serif !important;
   letter-spacing: 2;
   margin-bottom: 20px;
   font-size: 18px;
@@ -68,7 +68,7 @@ const Paragraph = styled.p`
 
 
 const Title = styled.p`
-  font-family: roboto;
+    font-family: Roboto, sans-serif !important;
   letter-spacing: 2;
   margin-bottom: 5px;
   font-size: 28px;
@@ -91,7 +91,7 @@ const Title = styled.p`
 `;
 
 const JobTitle = styled.p`
-  font-family: roboto;
+    font-family: Roboto, sans-serif !important;
   letter-spacing: 2;
   margin-bottom: 20px;
   font-size: 20px;
@@ -107,7 +107,7 @@ const JobTitle = styled.p`
 `;
 
 const JobDescription = styled.p`
-  font-family: roboto;
+    font-family: Roboto, sans-serif !important;
   letter-spacing: 2px;
   margin-bottom: 20px;
   font-size: 18px;
@@ -124,7 +124,7 @@ const JobDescription = styled.p`
 `;
 
 const SkillsDescription = styled.p`
-  font-family: roboto;
+    font-family: Roboto, sans-serif !important;
   letter-spacing: 2;
   margin-bottom: 20px;
   font-size: 18px;
