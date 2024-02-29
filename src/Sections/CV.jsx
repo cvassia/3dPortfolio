@@ -19,6 +19,7 @@ const Header = styled.p`
   letter-spacing: 2;
   margin-bottom: 5px;
   font-size: 28px;
+  font-family: roboto;
 
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 23px;
@@ -49,6 +50,7 @@ const Description = styled.p`
   }
 `;
 const Paragraph = styled.p`
+  font-family: roboto;
   letter-spacing: 2;
   margin-bottom: 20px;
   font-size: 18px;
@@ -66,6 +68,7 @@ const Paragraph = styled.p`
 
 
 const Title = styled.p`
+  font-family: roboto;
   letter-spacing: 2;
   margin-bottom: 5px;
   font-size: 28px;
@@ -88,6 +91,7 @@ const Title = styled.p`
 `;
 
 const JobTitle = styled.p`
+  font-family: roboto;
   letter-spacing: 2;
   margin-bottom: 20px;
   font-size: 20px;
@@ -103,6 +107,7 @@ const JobTitle = styled.p`
 `;
 
 const JobDescription = styled.p`
+  font-family: roboto;
   letter-spacing: 2px;
   margin-bottom: 20px;
   font-size: 18px;
@@ -115,11 +120,11 @@ const JobDescription = styled.p`
     font-size: 15px;
     margin-top: 0;
     text-align: left;
-
   }
 `;
 
 const SkillsDescription = styled.p`
+  font-family: roboto;
   letter-spacing: 2;
   margin-bottom: 20px;
   font-size: 18px;
