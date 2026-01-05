@@ -165,22 +165,22 @@ export const Experience = ({
       <spotLight
         castShadow
         distance={1005}
-        intensity={0.3}
+        intensity={5}
         angle={1}
         position={[-460, 220, -860]}
       />
       <spotLight
         color={"#a6bfd2"}
         castShadow
-        intensity={0.1}
+        intensity={2}
         position={[0, 420, -640]}
       />
       <directionalLight
         castShadow
-        intensity={0.3}
+        intensity={0.8}
         position={[1040, 140, 840]}
       />
-      <pointLight castShadow intensity={1} position={[-100, -120, -640]} />
+      <pointLight castShadow intensity={2} position={[-100, -120, -640]} />
     </>
   );
 };

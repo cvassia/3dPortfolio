@@ -189,6 +189,10 @@ function App() {
         shadows
         camera={{ position: [0, 11, 38], fov: 60 }}
         className="canvas"
+        gl={{
+          physicallyCorrectLights: true,
+          toneMappingExposure: 1.2,
+        }}
       >
         <Suspense fallback={null}>
           {/* <CameraControls ref={cameraControlRef} /> */}
@@ -201,7 +205,10 @@ function App() {
           dollyToCursor={dollyToCursor}
           infinityDolly={infinityDolly}
         /> */}
-          <Environment background files={"assets/textures/gradient.hdr"} />
+          <Environment
+            background files={"assets/textures/gradient.hdr"}
+            intensity={1.5}
+          />
 
           <Stars />
 
