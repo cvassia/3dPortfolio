@@ -1,32 +1,15 @@
 // import sky from "./images/digital_painting_beach_with_tent_campfire_and_two.jpg";
 import * as THREE from "three";
-import { useTexture } from "@react-three/drei";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { useLoader, useFrame } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
 
-import React, { Suspense, useState, useEffect, useRef } from "react";
-import { useAnimations, useGLTF } from "@react-three/drei";
-import { Canvas, useThree } from "@react-three/fiber";
-import { CameraControls } from "@react-three/drei";
+import React, { useEffect, useRef } from "react";
+import { useGLTF } from "@react-three/drei";
 
-import { suspend } from "suspend-react";
 import {
-  DirectionalLight,
-  DirectionalLightHelper,
-  Mesh,
-  PointLight,
-  PointLightHelper,
-  RectAreaLight,
-  SpotLight,
   SpotLightHelper,
 } from "three";
 import {
-  Environment,
-  OrbitControls,
-  Stars,
-  useFaceControls,
   useHelper,
-  Center,
 } from "@react-three/drei";
 import { Helmet } from "react-helmet";
 

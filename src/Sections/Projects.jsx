@@ -120,8 +120,9 @@ export const Projects = () => (
     <Container spacing={12} container>
       {projectItems.map((item) => (
         <>
-          <Grid item  sm={12} md={12} lg={6} style={{  textAlign: "-webkit-right"
-}}>
+          <Grid item sm={12} md={12} lg={6} style={{
+            textAlign: "-webkit-right"
+          }}>
             <CardWrapper>
               <CardActionArea>
                 <a href={item.url} target="_blank" rel="noreferrer">
@@ -135,7 +136,7 @@ export const Projects = () => (
               </CardActionArea>
             </CardWrapper>
           </Grid>
-          <Text item  sm={12} md={12} lg={6}>
+          <Text item sm={12} md={12} lg={6}>
             <CardText>
               <Header>
                 <Link href={item.url} target="_blank" rel="noreferrer">
@@ -166,50 +167,4 @@ export const Projects = () => (
       ))}
     </Container>
   </GridWrapper>
-  //   <section id="projects">
-  //     <div class="middle_line"></div>
-  //     <article class="reveal-container">
-
-  //     </article>
-  //     <div class="middle_line"></div>
-  //     <article class="reveal-container">
-  //       <a href="http://varvaresos.cvassia.com">
-  //         <img src="../pictures/varvares.jpg" alt="actor" />
-  //       </a>
-  //       <h6 >2019</h6>
-  //       <h5 >weather app</h5>
-  //     </article>
-  //     <div class="middle_line"></div>
-  //     <article class="reveal-container">
-  //       <a href="https://spyrosmarkopoulos.cvassia.com">
-  //         <img src="../pictures/markopoulos.jpg" alt="markopoulos" />
-  //       </a>
-  //       <h6 >2019</h6>
-  //       <h5 >actor's website</h5>
-  //     </article>
-  //     <div class="middle_line"></div>
-  //     <article class="reveal-container">
-  //       <a href="greece.html">
-  //         <img src="../pictures/greece.jpg" alt="greece" />
-  //       </a>
-  //       <h6 >2019</h6>
-  //       <h5 >greece website</h5>
-  //     </article>
-  //     <div class="middle_line"></div>
-  //     <article class="reveal-container">
-  //       <a href="https://landingpage.cvassia.com">
-  //         <img src="../pictures/landing-page.jpg" alt="landing page" />
-  //       </a>
-  //       <h6 >2019</h6>
-  //       <h5 >landing page</h5>
-  //     </article>
-  //     <div class="middle_line"></div>
-  //     <article class="reveal-container">
-  //       <a href="https://todo.cvassia.com">
-  //         <img src="../pictures/toDo.jpg" alt="to do list" />
-  //       </a>
-  //       <h6 >2019</h6>
-  //       <h5 >to do list app</h5>
-  //     </article>
-  //   </section>
 );

@@ -99,10 +99,6 @@ const DrawerModal = ({
             width: isLocatedInContact ? "80%" : "90%",
             overflowY: isLocatedInContact ? "visible" : "auto",
             // eslint-disable-next-line no-useless-computed-key
-            // ["@media (max-height:768px)"]: {
-            //   width: "90%",
-            // },
-            // eslint-disable-next-line no-useless-computed-key
             ["@media (min-width:280px)and (max-height: 690px)"]: {
               overflowY: "auto",
             },
@@ -152,26 +148,28 @@ const DrawerModal = ({
         {isLocatedInAbout
           ? Cv(setState)
           : isLocatedInProjects
-          ? Projects(setState)
-          : isLocatedInContact && ContactForm(setState)}
+            ? Projects(setState)
+            : isLocatedInContact && ContactForm(setState)}
         {(isLocatedInAbout || isLocatedInProjects) && (
           <Box
-            style={{display: "flex",  justifyContent: "right",
-  marginBottom: "20px",
-  marginRight: "20px"}}
-          onClick={() => {
-            setState({ right: false });
-            openAboutDrawer && setOpenAboutDrawer(false);
-            openProjectsDrawer && setOpenProjectsDrawer(false);
-            openContactDrawer && setOpenContactDrawer(false);
-          }}
-          onKeyDown={() => {
-            setState({ right: false });
-            openAboutDrawer && setOpenAboutDrawer(false);
-            openProjectsDrawer && setOpenProjectsDrawer(false);
-            openContactDrawer && setOpenContactDrawer(false);
-          }}
-        >
+            style={{
+              display: "flex", justifyContent: "right",
+              marginBottom: "20px",
+              marginRight: "20px"
+            }}
+            onClick={() => {
+              setState({ right: false });
+              openAboutDrawer && setOpenAboutDrawer(false);
+              openProjectsDrawer && setOpenProjectsDrawer(false);
+              openContactDrawer && setOpenContactDrawer(false);
+            }}
+            onKeyDown={() => {
+              setState({ right: false });
+              openAboutDrawer && setOpenAboutDrawer(false);
+              openProjectsDrawer && setOpenProjectsDrawer(false);
+              openContactDrawer && setOpenContactDrawer(false);
+            }}
+          >
             <ExitButtonBottom />
           </Box>
 

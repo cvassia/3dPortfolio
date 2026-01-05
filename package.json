@@ -4,30 +4,21 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
-    "@emotion/react": "^11.11.3",
-    "@emotion/styled": "^11.11.0",
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^5.14.13",
     "@mui/material": "^5.14.13",
-    "@mui/styled-engine-sc": "^6.0.0-alpha.1",
     "@react-three/drei": "^9.74.14",
-    "@react-three/fiber": "^8.12.0",
     "@react-three/postprocessing": "^2.14.9",
     "animate.css": "^4.1.1",
-    "camera-controls": "^2.7.2",
-    "custom-cursor-react": "^1.0.5",
-    "gsap": "^3.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-hook-form": "^7.49.3",
-    "react-scripts": "5.0.1",
-    "react-special-cursor": "^1.2.1",
-    "react-three-fiber": "^6.0.13",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.70.0",
     "styled-components": "^6.1.8",
-    "three": "^0.143.0"
+    "three": "^0.182.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,6 +31,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "engines": {
+    "node": "20.x"
   },
   "browserslist": {
     "production": [

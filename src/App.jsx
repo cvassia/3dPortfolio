@@ -1,23 +1,20 @@
 import React, { useState, Suspense } from "react";
 import {
-  PerspectiveCamera,
+  // PerspectiveCamera,
   Environment,
-  OrbitControls,
+  // OrbitControls,
   Stars,
-  useFaceControls,
-  useHelper,
-  Grid,
-  Center,
-  AccumulativeShadows,
-  RandomizedLight,
-  useGLTF,
-  CameraControls,
+  // useFaceControls,
+  // useHelper,
+  // Grid,
+  // Center,
+  // AccumulativeShadows,
+  // RandomizedLight,
+  // useGLTF,
+  // CameraControls,
 } from "@react-three/drei";
-import * as THREE from "three";
-import { EffectComposer, HueSaturation } from "@react-three/postprocessing";
-import { BlendFunction } from "postprocessing";
-import FmdGoodIcon from "@mui/icons-material/FmdGood";
-import { Canvas, useThree } from "@react-three/fiber";
+
+import { Canvas } from "@react-three/fiber";
 import { useProgress } from "@react-three/drei";
 
 import { Experience } from "./Experience";
