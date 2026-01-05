@@ -84,7 +84,9 @@ const CardText = styled(Card)`
 `;
 
 const CardWrapper = styled(Card)`
-  border-radius: 30px;
+  border-radius: 18px;
+  max-width: 520px;   
+  width: 100%;
   @media only screen and (max-width: 375px) and (min-width: 280px) {
     border-radius: 16px;
     height: 207px;

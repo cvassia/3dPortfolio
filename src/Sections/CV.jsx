@@ -77,15 +77,15 @@ const Title = styled.p`
   @media only screen and (max-width: 1024px) and (min-width: 280px) {
     font-size: 24px;
     margin-top: ${(props) =>
-      props.isEducation
-        ? "47px"
-        : props.isSkills
+    props.isEducation
+      ? "47px"
+      : props.isSkills
         ? "-52px"
         : props.isFreelance
-        ? "25px"
-        : props.isSoftSkills
-        ? "-43px"
-        : "-38px"};
+          ? "25px"
+          : props.isSoftSkills
+            ? "-43px"
+            : "-38px"};
     text-align: left;
   }
 `;
@@ -119,6 +119,20 @@ const JobDescription = styled.p`
     margin-bottom: 0;
     font-size: 15px;
     margin-top: 0;
+    text-align: left;
+  }
+`;
+const SkillsTitle = styled.p`
+  font-family: Roboto, sans-serif !important;
+  letter-spacing: 2;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: justify;
+  width: 90%;
+
+  @media only screen and (max-width: 1024px) and (min-width: 280px) {
+    margin-bottom: 0px;
+    font-size: 19px;
     text-align: left;
   }
 `;
@@ -162,7 +176,7 @@ export const Cv = () => (
           <Paragraph>
             Dedicated{" "}
             <strong style={differentColor}>React FrontEnd Developer </strong>{" "}
-            based in Berlin, with over 4 years of experience, leveraging a
+            based in Berlin, with over 7 years of experience, leveraging a
             unique background in architecture and a master’s degree in set
             design. My{" "}
             <strong style={differentColor}>art & design background </strong>
@@ -173,25 +187,6 @@ export const Cv = () => (
             Passionate for the entire frontend spectrum and thrilled to be
             challenged in ambitious projects collaborating with interesting
             people.
-            {/* based in Berlin, with over 4 years of experience, leveraging a
-            unique background in architecture and a master’s degree in set
-            design. My art & design background alongside my development
-            experience gives me the capability to seamlessly navigate a project
-            from its conceptualization and design phase to its full
-            implementation. I possess a skill set that enables me to craft
-            comprehensive strategies and visions for products. This expertise
-            extends to articulating these strategies through short and long-term
-            product roadmaps, carefully prioritizing features based on their
-            level of importance and the time required for execution.
-            Additionally, I excel in the domain of user research, with a
-            proficiency in planning, conducting, and analyzing high-quality
-            research initiatives. I bring to the table a demonstrated ability to
-            translate concepts into tangible forms through sketching,
-            wireframing, and prototyping. Furthermore, my strong proficiency in
-            motion graphics and animations further enriches my skill set,
-            allowing for dynamic and engaging user experiences. Interested in
-            the entire frontend spectrum and working on ambitious projects with
-            interesting people. */}
           </Paragraph>
         </Box>
       </Grid>
@@ -225,6 +220,105 @@ export const Cv = () => (
             long-term product roadmaps, carefully prioritizing features based on
             their level of importance and the time required for their execution.
           </Paragraph>
+        </Box>
+      </Grid>
+
+      <Grid item sm={12} md={12} lg={6}>
+        <Box>
+          <Title isSkills>Tech Stack </Title>
+          <SkillsTitle>
+            Languages
+          </SkillsTitle>
+          <SkillsDescription>
+            <strong style={differentColor}>
+              TypeScript • JavaScript (ES6+)
+            </strong>
+          </SkillsDescription>
+          <SkillsTitle>
+            Frontend
+          </SkillsTitle>
+          <SkillsDescription>
+            <strong style={differentColor}>
+              React • State Management: Context API, Redux • Routing: React Router, Next.js (SSR / SSG) • Form Handling: React Hook Form, Formik • Testing: Jest (Unit & Integration) • Component-driven development: Storybook • Mobile: React Native (Expo)
+            </strong>
+          </SkillsDescription>
+          <SkillsTitle>
+            Styling
+          </SkillsTitle>
+          <SkillsDescription>
+            <strong style={differentColor}>
+              CSS, Sass, Less • Tailwind CSS • CSS-in-JS: Styled Components, Emotion • UI Libraries: Material-UI
+            </strong>
+          </SkillsDescription>
+          <SkillsTitle>
+            State, Data & Auth
+          </SkillsTitle>
+          <SkillsDescription>
+            <strong style={differentColor}>
+              REST & GraphQL API consumption • Authentication & authorization flows: JWT, OAuth • Internationalization: i18n / react-i18next
+            </strong>
+          </SkillsDescription>
+          <SkillsTitle>
+            Backend
+          </SkillsTitle>
+          <SkillsDescription>
+            <strong style={differentColor}>
+              Node.js (Express / API development) • Prisma (ORM, schema design, migrations) • MongoDB
+            </strong>
+          </SkillsDescription>
+          <SkillsTitle>
+            Backend Services & Cloud
+          </SkillsTitle>
+          <SkillsDescription>
+            <strong style={differentColor}>
+              AWS (S3, basic deployment, environment setup) • Appwrite (Auth, Database, Storage, Functions)
+            </strong>
+          </SkillsDescription>
+          <SkillsTitle>
+            Build Tools & Version Control
+          </SkillsTitle>
+          <SkillsDescription>
+            <strong style={differentColor}>
+              Webpack, Babel, NPM/Yarn • Docker (containerization) • Git, GitHub, Bitbucket
+            </strong>
+          </SkillsDescription>
+          <SkillsTitle>
+            Design / Collaboration
+          </SkillsTitle>
+          <SkillsDescription>
+            <strong style={differentColor}>
+              Figma, UI/UX collaboration & design handoff • Affinity Designer
+            </strong>
+          </SkillsDescription>
+        </Box>
+      </Grid>
+      <Grid item sm={12} md={12} lg={6} style={{ marginBottom: "25px" }}>
+        <Box>
+          <Title isSoftSkills>Soft Skills </Title>
+          <JobDescription>
+            <strong style={differentColor}>Adaptability & Motivation: </strong> Quickly embrace new technologies and methodologies; proactive in taking on challenges.{" "}
+          </JobDescription>{" "}
+          <JobDescription>
+            <strong style={differentColor}>Problem Solving & Critical Thinking: </strong> Analyze complex technical issues, implement efficient solutions, considering
+            multiple perspectives, making informed decisions and optimize code functionality.{" "}
+          </JobDescription>{" "}
+          <JobDescription>
+            <strong style={differentColor}>Attention to Detail: </strong>{" "}
+            Ensure accuracy, usability, and adherence to project specifications in frontend development.{" "}
+          </JobDescription>{" "}
+          <JobDescription>
+            <strong style={differentColor}>Collaboration & Communication:</strong> Adept at
+            articulating complex technical concepts in a clear and
+            understandable manner, ensuring effective collaboration with team
+            members, and clients. Work closely with UI/UX designers and backend developers.{" "}
+          </JobDescription>{" "}
+          <JobDescription>
+            <strong style={differentColor}>Self-Management:</strong> Highly organized, independent, and open to constructive feedback to continuously improve outcomes.
+          </JobDescription>{" "}
+          <JobDescription>
+            Open to receive and deliver{" "}
+            <strong style={differentColor}>clear and useful criticism.</strong>{" "}
+          </JobDescription>
         </Box>
       </Grid>
       <Grid item sm={12} md={12} lg={6}>
@@ -290,6 +384,7 @@ export const Cv = () => (
           </JobDescription>
         </Box>
       </Grid>
+
       <Grid item sm={12} md={12} lg={6}>
         <Box>
           <Title isFreelance>Freelance Projects</Title>
@@ -322,122 +417,7 @@ export const Cv = () => (
           </JobDescription>
         </Box>
       </Grid>
-      <Grid item sm={12} md={12} lg={6}>
-        <Box>
-          <Title isSkills>Skills </Title>
-          <SkillsDescription>
-            Proficient in{" "}
-            <strong style={differentColor}>
-              React • JavaScript (ES6+) • TypeScript • Remix • NodeJS • AWS •
-              Vite • MongoDB • HTML5 • CSS • Sass • Less •Tailwind • Storybook
-            </strong>
-            .
-          </SkillsDescription>
-          <SkillsDescription>
-            Strong knowledge of{" "}
-            <strong style={differentColor}>
-              Redux • React Router • MaterialUi • styledComponents and other
-              related libraries
-            </strong>
-            .
-          </SkillsDescription>
-          <SkillsDescription>
-            engineering and architecture experience on
-            <strong style={differentColor}>
-              APIs (REST, GraphQL) • Microservices
-            </strong>
-            .
-          </SkillsDescription>
-          <SkillsDescription>
-            Ability to create a strategy/vision for a product • convey that
-            strategy in the form of a short- and long-term product roadmap •
-            prioritizing features based on level of importance and time to
-            execute.
-          </SkillsDescription>
 
-          <SkillsDescription>
-            Planning • conducting • analyzing quality user research.
-          </SkillsDescription>
-          <SkillsDescription>
-            Sketching • creating wireframes • prototyping{" "}
-            <strong style={differentColor}>Affinity Designer • Figma</strong>.
-          </SkillsDescription>
-          <SkillsDescription>
-            Strong skills with motion graphics and animations.{" "}
-            <strong style={differentColor}>Cinema 4D • Blender</strong>.
-          </SkillsDescription>
-          <SkillsDescription>
-            Familiar with unit testing using{" "}
-            <strong style={differentColor}>Jest </strong>.
-          </SkillsDescription>
-          <SkillsDescription>
-            {" "}
-            <strong style={differentColor}>Docker</strong>{" "}
-          </SkillsDescription>
-          <SkillsDescription>
-            {" "}
-            <strong style={differentColor}>WordPress</strong>{" "}
-          </SkillsDescription>
-          <SkillsDescription>
-            Familiarity with build tools like{" "}
-            <strong style={differentColor}>Webpack • Babel • NPM/Yarn</strong>.
-          </SkillsDescription>
-          <SkillsDescription>
-            Git version control and collaborative tools{" "}
-            <strong style={differentColor}>GitHub • Bitbucket</strong>.
-          </SkillsDescription>
-        </Box>
-      </Grid>
-      <Grid item sm={12} md={12} lg={6} style={{ marginBottom: "25px" }}>
-        <Box>
-          <Title isSoftSkills>Soft Skills </Title>
-          <JobDescription>
-            <strong style={differentColor}>Adaptability: </strong> Quick to
-            embrace emerging technologies and methodologies, consistently
-            staying at the forefront of trends.{" "}
-          </JobDescription>{" "}
-          <JobDescription>
-            <strong style={differentColor}>Problem Solving: </strong> Analyzing
-            intricate technical challenges and implementing solutions. This
-            capability has played a vital role in optimizing code functionality
-            and resolving issues efficiently.{" "}
-          </JobDescription>{" "}
-          <JobDescription>
-            <strong style={differentColor}>Critical Thinking:</strong>{" "}
-            Evaluating complex technical scenarios objectively, considering
-            multiple perspectives and making informed decisions in order to
-            optimize development processes.
-          </JobDescription>
-          <JobDescription>
-            <strong style={differentColor}>Attention to Detail: </strong>{" "}
-            Meticulous in ensuring accuracy, functionality, and adherence to
-            project specifications.{" "}
-          </JobDescription>{" "}
-          <JobDescription>
-            <strong style={differentColor}>Communication: </strong> Adept at
-            articulating complex technical concepts in a clear and
-            understandable manner, ensuring effective collaboration with team
-            members, and clients.{" "}
-          </JobDescription>{" "}
-          <JobDescription>
-            <strong style={differentColor}>Teamwork: </strong> I am working
-            closely with UI/UX designers and back-end developers to deliver
-            cohesive and user-centric applications.{" "}
-          </JobDescription>{" "}
-          <JobDescription>
-            <strong style={differentColor}>Self-organized</strong> and able to
-            work independently.
-          </JobDescription>{" "}
-          <JobDescription>
-            Motivated to take on{" "}
-            <strong style={differentColor}>new challenges.</strong>{" "}
-          </JobDescription>{" "}
-          <JobDescription>
-            Open to receive and deliver{" "}
-            <strong style={differentColor}>clear and useful criticism.</strong>{" "}
-          </JobDescription>
-        </Box>
-      </Grid>
     </Grid>
   </GridWrapper>
 );

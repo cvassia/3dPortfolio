@@ -1,13 +1,21 @@
 export const projectItems = [
   {
+    url: "https://recursivetodoapp.cvassia.com/",
+    image: "assets/images/toDo.png",
+    header: "Recursive ToDo App",
+    year: "2025",
+    description: "A recursive task management application that allows users to structure their work into nested, hierarchical tasks.",
+    descriptionSecondLine: "Built with Remix and TypeScript, the app features Appwrite authentication for secure login, dynamic recursive UI rendering, and full CRUD functionality for tasks and subtasks.",
+    stacks: ["Typescript", "Remix", "Node", "Appwrite"],
+  },
+  {
     url: "https://pulsespot.cvassia.com/",
-    image: "assets/images/pulseSpot.jpg",
+    image: "assets/images/pulseSpot.png",
     header: "PulseSpot",
-    year: "2023  App in progress...",
-    description: "An app presenting all the current events of towns in Greece.",
-    descriptionSecondLine:
-      "Providers of events can add, edit or delete events and users can browse and save in their favorites all the events that are interested in. -- Best view for now in mobile --",
-    stacks: ["Remix", "Node", "Prisma", "Typescript"],
+    year: "2024 App in Progress...",
+    description: "A web app presenting current events in various towns in Greece, letting users explore, search, and save events they're interested in.",
+    descriptionSecondLine: "Event providers can create, edit, or delete events, while users can browse, favorite, and filter them. Features include authentication, i18n support, and responsive design.",
+    stacks: ["Typescript", "Remix", "Node", "MongoDB", "Netlify Functions"],
   },
   {
     url: "https://notes.cvassia.com/",
@@ -16,7 +24,7 @@ export const projectItems = [
     year: "2023",
     description: "A note-taking app. ",
     descriptionSecondLine: "Add and Edit everyday tasks and thoughts.",
-    stacks: ["Remix", "Node", "Prisma", "Typescript"],
+    stacks: ["Typescript", "Remix", "Node", "Prisma"],
   },
   {
     url: "https://art4kids.gr/",
@@ -38,16 +46,6 @@ export const projectItems = [
     descriptionSecondLine:
       "of the HR software needed for the employee management.",
     stacks: ["React", "Redux", "Styled Components", "Vite"],
-  },
-  {
-    url: "https://vinzenzschechner.com/",
-    image: "assets/images/vinzenz.png",
-    header: "Vinzenz Schechner",
-    year: 2021,
-    description: "Portfolio website of a Costume Designer in Berlin",
-    descriptionSecondLine:
-      "specializes in creating costumes for Opera and Theater.",
-    stacks: ["Javascript", "Wordpress"],
   },
   {
     url: "https://weather.cvassia.com/",
