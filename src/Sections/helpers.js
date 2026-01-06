@@ -1,6 +1,15 @@
 export const projectItems = [
   {
     url: "https://recursivetodoapp.cvassia.com/",
+    image: "assets/images/ocr.png",
+    header: "Image2Word",
+    year: "2026",
+    description: "A mobile application that captures photos of documents and extracts Greek and all Latin-based languages text using Google Document AI, converting them into editable Word files.",
+    descriptionSecondLine: "Built with React Native and TypeScript, the app leverages Expo for cross-platform mobile development, implements client-side image preprocessing, integrates with a Node.js/Express backend for OCR via Google Document AI, dynamically generates Word (.docx) files, and includes authenticated document management—allowing users to save, rename, delete, and share documents via Google or Apple login.",
+    stacks: ["TypeScript", "React Native", "Expo", "Node.js", "Express", "Google Document AI"]
+  },
+  {
+    url: "https://recursivetodoapp.cvassia.com/",
     image: "assets/images/toDo.png",
     header: "Recursive ToDo App",
     year: "2025",
@@ -45,7 +54,7 @@ export const projectItems = [
       "Part of the frontend team responsible for the design and implementation",
     descriptionSecondLine:
       "of the HR software needed for the employee management.",
-    stacks: ["React", "Redux", "Styled Components", "Vite"],
+    stacks: ["Typescript", "React", "Redux", "Styled Components", "Vite"],
   },
   {
     url: "https://weather.cvassia.com/",
