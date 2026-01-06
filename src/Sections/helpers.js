@@ -33,7 +33,7 @@ export const projectItems = [
     year: "2023",
     description: "A note-taking app. ",
     descriptionSecondLine: "Add and Edit everyday tasks and thoughts.",
-    stacks: ["Typescript", "Remix", "Node", "Prisma"],
+    stacks: ["Javascript", "Remix", "Node", "Prisma"],
   },
   {
     url: "https://art4kids.gr/",
