@@ -1,58 +1,37 @@
 # 3D Portfolio ✨
 
-An interactive **3D portfolio website** built with **React** and modern WebGL tooling, showcasing creative frontend development with a strong focus on visual storytelling, performance, and user experience.
+Personal  **3D portfolio** showcasing projects, built with **React** and modern WebGL tooling, showcasing creative frontend development with a strong focus on visual storytelling, performance, and user experience.
 
 🔗 **Live site:** https://www.cvassia.com  
-👩‍💻 **Author:** Vassia Christopoulou.
+🔗 **GitHub:** https://github.com/cvassia/3dPortfolio
 
 ---
 
 ## 🚀 Overview
 
+Interactive portfolio website highlighting projects, skills, and design creativity using 3D effects and smooth animations.
+
 This project is a personal portfolio designed to explore the intersection of **frontend engineering, 3D graphics, and design**.  
 It presents selected work and experiments through immersive 3D scenes, smooth animations, and responsive layouts.
 
-The site reflects my background in **architecture and set design**, translated into digital space through interactive interfaces.
+---
+
+## Role & Contribution
+
+Designed and developed the entire frontend
+Integrated 3D effects and animations for interactive presentation
+Ensured responsive and performant design across devices
+Showcased portfolio projects dynamically
+
+---
 
 ## Architecture
 
-- Component-driven React architecture
-- Separation of UI components and 3D canvas logic
-- Declarative scene composition using @react-three/fiber
-- Reusable helpers via @react-three/drei
-- Stateless visual components where possible
-
----
-
-## Rendering & Performance
-
-- WebGL rendering via Three.js
-- Scene graph managed by React Three Fiber
-- Optimized re-renders using hooks and memoization
-- Lazy loading of assets where applicable
-- Responsive camera scaling for different viewports
-
-
----
-
-## ✨ Features
-
-- Interactive 3D scenes rendered with WebGL
-- Smooth camera movement and animations
-- Responsive layout for desktop and mobile
-- Clean component-based architecture
-- Performance-conscious rendering
-- Creative UI inspired by spatial design principles
-
-
----
-
-## Purpose
-
-This project demonstrates my ability to:
-- Build complex interactive UIs with React
-- Integrate 3D graphics into modern web applications
-- Translate spatial and design concepts into digital products
+- React + TypeScript
+- Three.js for 3D effects
+- Styled Components for UI
+- Vite for fast development
+- Responsive design
 
 ---
 
@@ -75,6 +54,48 @@ This project demonstrates my ability to:
 - Git / GitHub
 
 ---
+
+## Features
+
+- Interactive 3D scenes rendered with WebGL
+- Smooth camera movement and animations
+- Responsive layout for desktop and mobile
+- Clean component-based architecture
+- Performance-conscious rendering
+- Fully responsive and cross-browser compatible
+- Creative UI inspired by spatial design principles
+
+## Challenges & Solutions
+
+Performance: Optimized 3D assets for smooth rendering
+Compatibility: Ensured animations work across devices
+UI/UX: Designed intuitive navigation and visual hierarchy
+
+## Rendering & Performance
+
+- WebGL rendering via Three.js
+- Scene graph managed by React Three Fiber
+- Optimized re-renders using hooks and memoization
+- Lazy loading of assets where applicable
+- Responsive camera scaling for different viewports
+
+
+
+## Purpose
+
+This project demonstrates my ability to:
+- Build complex interactive UIs with React
+- Integrate 3D graphics into modern web applications
+- Translate spatial and design concepts into digital products
+
+
+## Key Learnings
+
+- 3D and interactive UI design
+- Responsive and performant frontend development
+- Combining creativity with technical execution
+- Structuring a polished personal portfolio
+
 
 
 

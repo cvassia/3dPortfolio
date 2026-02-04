@@ -176,7 +176,7 @@ export const Cv = () => (
           <Paragraph>
             Dedicated{" "}
             <strong style={differentColor}>React FrontEnd Developer </strong>{" "}
-            based in Berlin, with over 7 years of experience, leveraging a
+            with over 7 years of experience, leveraging a
             unique background in architecture and a master’s degree in set
             design. My{" "}
             <strong style={differentColor}>art & design background </strong>
