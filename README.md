@@ -7,6 +7,10 @@ Personal  **3D portfolio** showcasing projects, built with **React** and modern 
 
 ---
 
+
+![3D Portfolio GIF](https://github.com/cvassia/3dPortfolio/raw/main/assets/demo.gif)  
+
+
 ## 🚀 Overview
 
 Interactive portfolio website highlighting projects, skills, and design creativity using 3D effects and smooth animations.
