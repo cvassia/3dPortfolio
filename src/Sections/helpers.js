@@ -1,7 +1,7 @@
 
 export const projectItems = [
   {
-    url: "https://image2doc.cvassia.com/",
+    url: "https://apps.apple.com/za/app/image2word/id6757700644",
     image: "assets/images/ocr.png",
     header: "Image2Doc",
     year: "2026",
